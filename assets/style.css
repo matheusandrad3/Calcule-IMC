@@ -145,6 +145,9 @@ button:hover{
 
 @media screen and (max-width: 540px){
 
+    *{
+        overflow: hidden;
+    }
     .container{
         width: 80%;
         height: auto;
