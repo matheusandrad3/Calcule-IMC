@@ -132,7 +132,7 @@ button:hover{
     background: rgba(255, 50, 50, 0.568);
     padding: 15px 0px 15px 10px;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -143,16 +143,51 @@ button:hover{
 
 
 
-@media screen and (max-width:540px){
+@media screen and (max-width: 540px){
 
     .container{
         width: 80%;
         height: auto;
     }
 
-    .resultado h1{
-        font-size: 32px;
+    #formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .form-titulo{
+    }
+   
+    .imc p{
+    font-size: 15px;
+
+    }
+    .resultado p{
+        font-size: 15px;
     }
 
+    .resultado h1{
+        font-size: 25px;
+    }
+
+    #resultado-imc h4{
+        font-size: 18px;
+        color: #00416A;  
+    }
+
+    .green{
+        height: 45px;
+        width: 91.5%;
+    }
+    .red{
+        height: 45px;
+        width: 91.5%;
+        text-align: center;
+    }
+
+    .resultado h1{
+        margin-bottom: 4px;
+        padding-top: 4px;
+    }
 }
 
