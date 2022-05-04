@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Heebo&family=Montserrat:wght@100&family=Open+Sans:wght@300;800&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&family=Rubik+Moonrocks&family=Ubuntu:wght@700&family=Work+Sans:wght@800&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+
+}
+
+.descrição{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 210px;
+}
+
+.imc{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.resultado{
+    width: 50%;
+    
+}
+
+p{
+    padding-top: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 10px;
+    }
+
+.form-titulo{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.form-value{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+.altura{
+    font-size: 20px;
+    width: 97%;
+    height: 35px;
+}
+
+.peso{
+    font-size: 20px;
+    width: 97%;
+    height: 35px;
+}
+
+button{
+    width: 98%;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 25px;
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    cursor: pointer;
+    color: white;
+  
+
+}
+
+button:hover{
+    background:#0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+#resultado-imc h4{
+    padding: 15px 0px 15px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.green{
+    background: rgba(0, 255, 64, 0.705);
+    padding: 15px 0px 15px 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    height: 50px;
+    width: 94%;
+}
+
+.red{
+    background: rgba(255, 50, 50, 0.568);
+    padding: 15px 0px 15px 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 50px;
+    width: 94%;
+}
+
+
+
+
+@media screen and (max-width:540px){
+
+    .container{
+        width: 80%;
+        height: auto;
+    }
+
+    .resultado h1{
+        font-size: 32px;
+    }
+
+}
+
